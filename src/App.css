@@ -1,0 +1,87 @@
+.app-layout {
+      display: flex;
+    }
+
+    .sidebar{
+      background-color: dimgray;
+            border-radius: 25px;
+    border: 2px solid #202123;
+    padding: 20px;
+    width: 30%;
+    }
+
+        .mainmenu{
+            border-radius: 25px;
+    border: 2px solid #202123;
+    padding: 20px;
+    width: 70%;
+    }
+
+.list-group-item {
+  background-color: dimgray !important;
+  border: 1px solid #202123 !important;
+}
+
+.scanHeading{
+  font-weight: bold;
+}
+
+.addNoteButton{
+  position: absolute;
+    right: 10px;
+}
+
+.saveButton{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addNoteHeaderWidth{
+width: 17% !important;
+}
+
+.addNotelabel{
+  display: flex;
+  padding: 10px;
+}
+    .Patient_Scans_List {
+      width: 250px; 
+      background-color: #f0f0f0;
+      padding: 20px;
+      
+
+    }
+
+    .AddNote {
+      flex-grow: 1; /* Main panel takes up remaining space */
+      padding: 20px;
+      overflow-y: auto; /* Enable scrolling if content exceeds height */
+      /* Add more styling for content area */
+    }
+
+    .primary{
+    border-bottom: 3px solid #202123 ;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+
+
+    display: flex
+;
+    align-items: center;
+    min-width: 0;
+    width: 100%;
+    }
+
+.primary{
+    /* min-height: var(--shrink-height, var(--height));
+    border-top: var(--theme-border-top);
+    border-bottom: var(--theme-border-bottom); */
+}
+
+.default-logo{
+    width: 51%;
+    height: 3%;
+    margin: 20px;    
+
+}
