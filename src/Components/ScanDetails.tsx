@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 
 function ScanDetails(props: any) {
@@ -61,10 +61,10 @@ function ScanDetails(props: any) {
 
   function handleSubmit(event: any) {
     event.preventDefault();
-    const form = event.currentTarget;
-    const formData = new FormData(form);
+    // const form = event.currentTarget;
+    // const formData = new FormData(form);
     newNotes(scanId);
-    const formJson = Object.fromEntries(formData.entries());
+    // const formJson = Object.fromEntries(formData.entries());
   }
 
   const newNotes = async (scanId: number) => {
