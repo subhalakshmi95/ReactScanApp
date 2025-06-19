@@ -88,7 +88,8 @@ export class ScanList extends Component<MyComponentProps, MyComponentState> {
                   this.sendScanId(scanData.scanID);
                 }}
               >
-                {scanData.scanID}
+                {scanData.scanID + " - "}
+                {new Date(scanData.date).toLocaleDateString()}
               </li>
             )
           )}

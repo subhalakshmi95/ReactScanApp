@@ -107,11 +107,11 @@ function ScanDetails(props: any) {
 
       <div>
         <span className="scanHeading">Scan Date :</span>
-        <p>{scanList.date.toString()}</p>
+        <p>{new Date(scanList.date).toLocaleDateString()}</p>
       </div>
       <div>
         <span className="scanHeading">Anatomical Region :</span>
-        <p>{scanList.scanID}</p>
+        <p>{scanList.anatomicalRegion}</p>
       </div>
       <div>
         <span className="scanHeading">Findings :</span>
